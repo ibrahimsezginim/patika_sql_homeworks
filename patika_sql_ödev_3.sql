@@ -1,3 +1,4 @@
+https://app.patika.dev/ibrahimsezgin
 /*
 1-country tablosunda bulunan country sütunundaki ülke isimlerinden 'A' karakteri ile başlayıp 'a' karakteri ile 
 sonlananları sıralayınız.
