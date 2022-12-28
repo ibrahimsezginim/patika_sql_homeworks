@@ -1,3 +1,4 @@
+https://app.patika.dev/ibrahimsezgin
 /*
 1-test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, 
 email VARCHAR(100) olan bir tablo oluşturalım.
@@ -36,4 +37,8 @@ WHERE first_name = 'Amber'
 DELETE FROM employe WHERE email='amberhahahah@asfdasdf.com';
 DELETE FROM employe WHERE birthday='1997-05-13';
 DELETE FROM employe WHERE first_name='Kai';
+*/
+
+/*
+Veritabanında istediğimiz tabloyu silmek için DELETE FROM table_name; kullanabiliriz
 */
