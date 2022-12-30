@@ -1,12 +1,4 @@
-/*
-INNER JOIN için aşağıdaki syntax kullanılıyor.
-SELECT istediğimiz sütunlar, 
-FROM (tablo_1 = buraya yazacağımız tablonun adı içinde foreign key olan tablo adı olmalı)
-INNER JOIN (buraya yazacağımız tablonun adı içinde primary key olan tablo adı olmalı) 
-ON (tablo_1.foreignKeyOlanDeğer = tablo_2.primaryKeyOlanDeğer)
-*/
-
-
+https://app.patika.dev/ibrahimsezgin
 /*
 1-city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz INNER JOIN sorgusunu yazınız.
 SELECT city.city, country.country FROM city
