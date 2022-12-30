@@ -24,7 +24,7 @@ INNER JOIN customer ON rental.customer_id = customer.customer_id
 
 
 /*
-Burada da müşterinin ad-soyadı bilgisine göre toplam siparişlerine ne kadar ödeme yaptığını(SUM(amount)), kaç tane ürün sipariş ettiğineCOUNT(payment_id) ve ortalama ne kadar ödediğine(SUM(amount)/COUNT(payment_id)) göstermeye çalıştım. 
+Burada da müşterinin ad-soyadı bilgisine göre toplam siparişlerine ne kadar ödeme yaptığını(SUM(amount)), kaç tane ürün sipariş ettiğine(COUNT(payment_id)) ve ortalama ne kadar ödediğine(SUM(amount)/COUNT(payment_id)) göstermeye çalıştım. 
 SELECT SUM(amount)/COUNT(payment_id) AS OrtalamaSiparişFiyatı, SUM(amount), COUNT(payment_id), first_name, last_name
 FROM payment INNER JOIN customer ON payment.customer_id = customer.customer_id
 GROUP BY first_name, last_name
