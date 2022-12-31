@@ -1,3 +1,4 @@
+https://app.patika.dev/ibrahimsezgin
 /*
 1-city tablosu ile country tablosunda bulunan şehir (city) ve ülke (country) isimlerini birlikte görebileceğimiz LEFT JOIN sorgusunu yazınız.
 SELECT city.city, country.country 
