@@ -1,10 +1,14 @@
 https://app.patika.dev/ibrahimsezgin
 
 
---1-film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 
-16.99 küçük olma koşuluyla sıralayınız ( BETWEEN - AND yapısını kullanınız.)
+/*
+1-film tablosunda bulunan tüm sütunlardaki verileri replacement cost değeri 12.99 dan büyük eşit ve 16.99 küçük olma koşuluyla sıralayınız.(BETWEEN - AND yapısını 
+kullanınız.)
+*/
 SELECT * FROM film
 WHERE replacement_cost BETWEEN 12.99 AND 16.99
+
+
 
 /*
 film tablosunda bulunan replacement_cost'un 12.99 ve 16.99 arasındaki tüm sütunları gösterdikten sonra ORDER BY ile replacement_cost'un değerlerini küçükten 
@@ -14,6 +18,7 @@ SELECT * FROM film
 WHERE replacement_cost BETWEEN 12.99 AND 16.99
 ORDER BY replacement_cost
 */
+
 
 
 --2-actor tablosunda bulunan first_name ve last_name sütunlardaki verileri first_name 'Penelope' veya 'Nick' veya 
